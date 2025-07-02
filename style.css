@@ -1,0 +1,98 @@
+/* Seletor universal, pega todos elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(70, 70, 70);
+}
+
+.container{
+    /* border: 5px solid; */
+    height: 1000px;
+    width: 60%;
+    /* Dois valores no margin - primeiro (cima e baixo), segundo (direita e esquerda) */
+    margin: 10px auto;
+}
+.esquerda{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    float: left;
+    color: white;
+    padding-left: 60px;
+    padding-right: 20px ;
+}
+
+.direita{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding: 80px 30px;
+}
+img{
+    width: 240px;
+    height: 260px;
+    border-radius: 50%;
+    border: 7px solid greenyellow;
+    margin-top: 70px;
+    margin-left: 17%;
+}
+h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+h3{
+    font-style: italic;
+    font-weight: 400;
+    color: greenyellow;
+    margin: 12px 0;
+}
+h2{
+    color: greenyellow;
+    margin-top: 32px;
+    margin-bottom: 8px;
+
+}
+h4{
+    font-style: italic;
+    font-weight: 400;
+    margin: 8px 0;
+    font-size: 20px;
+}
+a{
+    color: white;
+}
+.contatos{
+    /* border: 1px solid ; */
+    margin-top: 36px;
+}
+i{
+    color: greenyellow;
+    margin-right: 10px;
+    margin-top: 16px;
+    width: 10px;
+    /* border: 1px solid; */
+}
+.direita h2{
+    color: black;
+    margin-top: 50px;
+}
+.direita hr{
+    margin-left: -30px;
+}
+.direita h3{
+    color: black;
+    font-size: 18px;
+}
+.direita h4{
+    font-size: 14px;
+}
+li{
+    /* border: 1px solid; */
+    margin-left: 30px;
+    margin-bottom: 16px;
+}

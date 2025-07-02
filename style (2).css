@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(112, 112, 112);
+}
+.container{
+    /* border: 5px solid; */
+    height: 1000px;
+    width: 60%;
+    /* Dois valores no margin - primeiro (cima e baixo), segundo (direita e esquerda) */
+    margin: 10px auto;
+}
+.cima{
+    background-color: rgb(161, 0, 0);
+    height: 50px;
+    /* border: 1px solid; */
+    /* width: 50px; */
+    /* float: left; */
+    /* padding-left: 50%; */
+    /* padding: 50% 25%; */
+    /* margin-left: 25%; */
+    /* margin-right: 25%; */
+}
+.baixo-esquerda{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* margin-left: 20px; */
+    /* margin-right: 25%; */
+    /* margin-top: 400px; */
+}
+.direita-baixo{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.cima h1{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+img{
+    margin-left: 75px;
+    height: 200px;
+    border: 10px solid rgb(161, 0, 0);
+    margin-top: 40px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+h1{
+    font-style: italic;
+    /* margin-left: 20px; */
+    text-align: center;
+}
+.baixo-esquerda h2{
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 20px;
+    color: rgb(161, 0, 0);
+}
